@@ -1,0 +1,3 @@
+# a script from web: http://www.commandlinefu.com/commands/using/cal
+
+ncal | grep -E --color "\b`date +%e`\b|$"

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+### Floating Clock ###
+######################
+
+cols=`tput cols`
+
+touch /tmp/tclock.run
+while [ -e /tmp/tclock.run ]; do
+  tput sc
+  tput cup 0 $((cols - 19))
+  #printf " $(date +%H:%M%:%d/%m/%Y) "
+echo -e "\033[43;30m [$(date +%H:%M)] $(date +%d/%m/%Y) "
+  tput rc
+  sleep 1
+done

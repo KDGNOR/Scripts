@@ -1,0 +1,13 @@
+#! /bin/bash
+# LaunchCFMApp/PowerPc = Diablo 2 & Heroes IV & Warcraft III World Editor
+
+open /apps/d2
+echo -e "\033[37mHit \033[0m\033[32mEnter\033[0m \033[37mFast!!"
+sleep 2
+echo -e "Now U Get\033[0m \033[1;33mf\033[0m\033[37mull\033[1;33ms\033[0m\033[37mcreen For WC3TFT-(\033[0m\033[1;34mBlizzard.com\033[0m\033[37m)"
+sleep 2
+
+killall LaunchCFMApp
+
+sleep 2
+echo -e "Now U Can\033[0m \033[1;31mExit\033[0m \033[37mAnd Close The Window"

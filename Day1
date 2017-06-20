@@ -1,0 +1,10 @@
+#! /bin/bash
+# See what space in on pc-harddrives
+
+echo "                 "
+
+df -H
+
+echo "                 "
+
+uptime

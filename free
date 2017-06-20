@@ -1,0 +1,3 @@
+#! /bin/bash
+# fine it on the web..
+top -l 1 | head -n 10 | GREP_COLOR='00;37' grep -E --color=always "(PhysMem:|wired,|active,|inactive,|used,|free.)" $1 
